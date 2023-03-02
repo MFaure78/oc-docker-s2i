@@ -3,6 +3,6 @@
 FROM registry.access.redhat.com/ubi7:latest
 
 # CMD ["/bin/bash", "-c", "sleep infinity"]
-CMD ["/bin/bash", "-c", "--", "echo 'hello'","while true; do sleep 35; done;"]
+CMD ["/bin/bash", "-c", "--","while true; do sleep 35; echo "hello"; done;"]
 
 # CMD changed to create a change in the Dockerfile
